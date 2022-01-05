@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="sans-serif-black"
+        android:text="WELCOME"
+        android:textColor="#0d6e6a"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/incomeList"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="470dp"
+        android:backgroundTint="@color/green"
+        android:text="Income Page"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/expenseList"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/incomeList"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/green"
+        android:text="Expense Page"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
